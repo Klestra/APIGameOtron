@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+#buttonList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#buttonList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  align-items: center;
+  background-color: #0f7175;
+  border-bottom: 1px solid #2bbabc;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Gugi', cursive;
+}
+#resultList {
+  width: 100vw;
+  height: 80vh;
+  /* Change the color */
+  background-color: #0f7175;
+  overflow: scroll;
+}
+
+
+main>div>img {
+  margin-top: 40px;
+  width: 250px;
+  height: auto;
+}
+
+main>div>h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Gugi', cursive;
+  text-decoration: underline;
+}
+
+main>div>p {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: center;
+  text-align: justify;  
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.gameInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px;
+}
+
+.loading-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2bbabc; 
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none!important;
+}
+
+#a {
+  border: none;
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.platform-container {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
